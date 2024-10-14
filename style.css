@@ -1,0 +1,55 @@
+body {
+    background-image: url("./images/background.png");
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: bottom; 
+}
+
+.background {
+    background-image: url("./images/head.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center; 
+    background-attachment: fixed;
+}
+
+.content {
+    
+    text-align: center;
+    position: relative;
+
+}
+
+table {
+    width: 1200px;
+    height: 100vh;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td, tr {
+    border: 25px solid white;
+}
+
+p {
+    width: max-content;
+    font-size: 30px;
+    background-color: blanchedalmond;
+    border-radius: 25px;
+    padding: 10px 30px;
+    margin: 23px auto;
+}
+
+a {
+    display: block;
+    background-color: #894AFF;
+    color: white;
+    padding: 11px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 38px;
+    text-align: center;
+    position: absolute;
+    right: 80px;
+    bottom: 75px;
+}
